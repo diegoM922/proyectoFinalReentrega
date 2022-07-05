@@ -1,0 +1,282 @@
+@charset "UTF-8";
+.colorBoton {
+  background-color: #0d8b54;
+  border-color: #0d8b54; }
+  .colorBoton:hover {
+    background-color: #0d8b54;
+    border-color: #0d8b54; }
+
+.carrusel {
+  width: 200px; }
+
+.textoEnImg {
+  background-color: rgba(255, 255, 255, 0.274); }
+
+.nav-item:hover {
+  transform: scale(1.2, 1.2); }
+
+.navBack {
+  background-color: #01937c !important; }
+
+h1 {
+  color: #0d8b54;
+  font-size: 600%;
+  text-shadow: black 2px 2px; }
+
+.colorH {
+  color: #0d8b54;
+  font-size: 300%;
+  text-shadow: black 2px 2px; }
+
+p {
+  font-size: 200%;
+  background-color: rgba(255, 255, 255, 0.884);
+  font-weight: 400; }
+
+.pPorqueComer {
+  font-size: 100%;
+  font-weight: 200;
+  background-color: white; }
+
+h4 {
+  color: #0d8b54;
+  font-size: 200%;
+  text-shadow: black 2px 2px; }
+
+.contenedor {
+  background: white;
+  margin-left: 10%;
+  margin-right: 10%; }
+  @media (max-width: 768px) {
+    .contenedor .contenedor {
+      margin-left: 0%;
+      margin-right: 0%; } }
+
+.navPad {
+  padding: 0%; }
+
+.tarjetas {
+  width: 95%;
+  margin-left: 0%;
+  margin-right: 0%; }
+  @media (max-width: 340px) {
+    .tarjetas .tarjetasA {
+      margin-left: 0% !important;
+      margin-right: 0% !important; } }
+
+.logo {
+  width: 20%;
+  height: auto;
+  border-radius: 50%; }
+  .logo:hover {
+    transform: scale(1.2, 1.2); }
+
+/*-----------------------------------------------------------------------*/
+.footer__face {
+  /* logo de facebook */
+  width: 10%;
+  height: 10%;
+  padding: 0% 0%;
+  margin: 0%;
+  border-radius: 25%; }
+
+.footer__face.footer__insta:hover {
+  transform: scale(1.2, 1.2); }
+
+.footer__insta {
+  /* logo de instagram */
+  width: 10%;
+  height: 10%;
+  padding: 0% 0%;
+  margin: 0%;
+  border-radius: 25%; }
+
+.footer__lista {
+  /* ul del footer */
+  text-align: center;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0%; }
+
+.footer__li {
+  /* elementos del footer */
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 0% 0%;
+  width: 25%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 115%; }
+
+p span {
+  /* primera letra de parrafo */
+  color: #0d8b54;
+  font-size: 50px; }
+
+.irArriba {
+  /* link para subir */
+  text-decoration: none; }
+
+.irArriba:hover {
+  transform: scale(1.2, 1.2); }
+
+.irArribaTexto {
+  /* estilo del link */
+  color: black;
+  font-weight: 10; }
+
+.irArribaTexto:hover {
+  /* estilo del link cuando el mouse esta encima */
+  color: #FFC074; }
+
+.irArriba:hover {
+  /* estilo del link cuando el mouse esta encima */
+  text-decoration: underline;
+  text-decoration: aqua;
+  background-color: black; }
+
+.footer__back {
+  /* background de footer */
+  background-color: rgba(240, 202, 156, 0.671); }
+
+/* =======================================PAGINA DELIVERY=========================================== */
+.mainFlex {
+  /* main flex*/
+  display: flex; }
+
+@media (max-width: 750px) {
+  .mainFlex {
+    flex-direction: column; } }
+
+.contenedorFlex {
+  display: flex;
+  flex-direction: column; }
+
+.seccionConaside {
+  /* seccion */
+  width: 55%;
+  height: 55%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+@media (max-width: 417px) {
+  .mapa.aside {
+    margin-left: 0% !important;
+    margin-right: 0% !important; } }
+
+@media (max-width: 340px) {
+  .mapa {
+    width: 30%; } }
+
+.aside {
+  /* aside*/
+  width: 45%;
+  display: block; }
+
+@media (max-width: 750px) {
+  .aside {
+    display: none; } }
+
+.pDelivery {
+  /* texto*/
+  display: block;
+  width: 65%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 115%; }
+
+@media (max-width: 750px) {
+  .pDelivery {
+    width: 150%; } }
+
+.imgDelivery {
+  width: 65%;
+  margin-bottom: 5%; }
+
+@media (max-width: 850px) {
+  .imgDelivery {
+    width: 315px;
+    height: auto;
+    margin-bottom: 5%; } }
+
+/*===================================PAGINA QUIENES SOMOS================================*/
+.seccionFlex {
+  /* section contenedor */
+  display: flex; }
+
+.imgQuienesSomos {
+  /* tamaño de la imagen */
+  width: 30%;
+  height: auto;
+  margin-bottom: 5%;
+  margin-right: 10%; }
+
+@media (max-width: 850px) {
+  .imgQuienesSomos {
+    width: 45%;
+    height: auto;
+    margin-bottom: 5%; } }
+
+.logoRedSocial {
+  /* tamaño y redondeo de iconos */
+  width: 20%;
+  border-radius: 25%; }
+
+#parrafoAside {
+  /* paddin para acomodar el texto */
+  padding-right: 10%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 115%; }
+
+.articulo_textoImg {
+  /* articulo contenedor */
+  display: flex;
+  width: 90%;
+  margin-left: 5%; }
+
+/* ==============================================PAGINA CONTACTO======================================== */
+.contenedorRedes {
+  /* div contenedor flex */
+  display: flex;
+  width: 100%;
+  align-items: center; }
+
+.sectionContacto {
+  /* redes sociales */
+  width: 30%;
+  margin: 0% 5%;
+  align-items: center; }
+
+.formulario {
+  /* tamaño formulario */
+  width: 80%; }
+
+.logoRedSocialContacto {
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.transicion {
+  transition: width 1s !important; }
+  .transicion:hover {
+    width: 24rem !important; }
+
+/*---------------------------------------------------------------------------*/
+#productos {
+  background-image: url(/imagenes/back_productos.png); }
+
+#inicio {
+  background-image: url(/imagenes/back_inicio.png); }
+
+#contacto {
+  background-image: url(/imagenes/back_contacto.png); }
+
+#delivery {
+  background-image: url(/imagenes/back_delivery.png); }
+
+#quienesSomos {
+  background-image: url(/imagenes/back_quienes.png); }
+
+#arriba {
+  background-color: #fff4ee; }
+
+.nav-link {
+  font-size: large; }
